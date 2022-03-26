@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@200&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: auto;
+  background: url(images/backgroundimg.jpg);
+  background-size: cover;
+  display: inline;
+}
+h1 {
+  color: skyblue;
+  text-shadow: 2px 2px black;
+  font-size: 45px;
+  border-bottom: 1px solid gray;
+  margin: 0px;
+  padding: 30px;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+  margin: 20px;
+}
+a {
+  color: skyblue;
+  text-decoration: none;
+}
+a:hover {
+  letter-spacing: 5px;
+  transition: all 280ms ease-in-out;
+}
+.greeting {
+  font-size: 30px;
+  font-weight: 500;
+  color: black;
+}
+.lefthy {
+  text-align: center;  
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  align-items: start;
+}
+.lefthy > p {
+  margin: 0;
+  font-weight: 600;
+  padding: 30px;
+  color: black;
+}
+.contactme {
+  margin: 10px;
+}
+.contactme:hover {
+  transform: scale(1.5);
+  transition: all 280ms ease-in-out;
+}
+#myphoto {
+  border-right: 1px solid gray;  
+}
+#intro {    
+  color: #353030;
+  text-align: justify;
+  align-items: start;
+  padding-left: 30px;
+  border-left: 1px solid gray;
+}
+footer {
+  width: 100%;
+  height: 100%;
+  text-align: center;   
+  color: white;
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+#myfooter {
+  border-top: 1px solid gray;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+#menu {
+  margin: 0;
+  border-bottom: 1px solid gray;
+  text-align: center;
+}
+
+
+/* .backimg {
+  text-align: center;
+} */
+/* .backimg{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+.backimg::after {   
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: url(images/20200315_201416.jpeg);
+  background-size: cover;  
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.65;
+}  */
